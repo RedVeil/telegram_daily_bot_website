@@ -155,6 +155,8 @@ const App = () => {
         {actions[4] === "yes" ? <div className={styles.conversatioStep}>
                                   <div className={styles.chatMessageContainer}>
                                     {ChatMessage(conversation[language].questions[6])}
+                                    {ChatMessage(conversation[language].questions[7])}
+                                    {ChatMessage(conversation[language].questions[8])}
                                   </div>
                                 </div>: ""}
         {actions[4] === "no" ?  <div className={styles.conversatioStep}>
