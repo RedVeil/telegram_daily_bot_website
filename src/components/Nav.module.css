@@ -1,0 +1,39 @@
+/****** Navigation Style *********/
+header {
+  overflow: hidden;
+  padding:10px 0;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+  float: left;
+  line-height: 45px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.7rem;
+  margin: 0 0 0 0.8em;
+  color: #707070;
+}
+
+ul{
+  float:right;
+  margin:0 1.2em 0 0;
+  padding:0;
+  display: flex;
+}
+
+li{
+  line-height: 45px;
+  list-style: none;
+}
+
+.changeLanguage{
+  border:none;
+  background: none;
+}
+
+.changeLanguage:hover{
+  cursor: pointer;
+  color: #12A9DE;
+}

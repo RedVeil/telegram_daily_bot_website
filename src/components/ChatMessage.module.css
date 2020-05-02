@@ -1,0 +1,12 @@
+.chatMessage{
+    border-radius:20px 20px 20px 0;
+    border:none;
+    background:#E6F3F9;
+    width: fit-content;
+    max-width: 500px;
+    margin:10px 0 0 0; 
+    padding:15px 15px 15px 25px; 
+    box-shadow:3px 3px 3px rgba(174,190,196,0.5);
+    transition-duration: 2s;
+    font-size: 1em;
+}

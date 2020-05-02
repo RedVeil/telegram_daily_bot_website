@@ -1,0 +1,49 @@
+/****** General Styles *********/
+body{
+  color: #707070;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+/****** Body Style *******/
+.main{
+  width: 50%;
+  display: flex;
+	flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.chatMessageContainer{
+  float:left;
+}
+
+.buttonsContainer{
+  float:right;
+  margin:50px 0 0 0;
+  padding:0;
+  display: flex;
+}
+
+.buttonsContainer2{
+  float:right;
+  margin:130px 0 0 0;
+  padding:0;
+  display: flex;
+}
+
+.conversationStep{
+  margin:20px 0;
+}
+
+@media(max-device-width: 530px){
+  .main{
+    width: 90%;
+  }
+  .buttonsContainer{
+    margin:10px 0;
+  }
+  .buttonsContainer2{
+    margin:10px 0;
+  }
+}
